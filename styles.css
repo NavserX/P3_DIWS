@@ -1,0 +1,175 @@
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    max-height: 50%;
+    height: auto;
+    display: block;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+    padding: 1rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+	letter-spacing: -3px;
+	font-size: 2.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.delgado {
+    font-weight: normal;
+}
+
+nav {
+    margin-top: 10px; 
+    text-align: left;
+	text-transform: uppercase;
+}
+
+.nav-list {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 20px; 
+    justify-content: left; 
+}
+
+.nav-list a {
+    text-decoration: none; 
+    color: inherit; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+}
+
+.hero {
+    height: 50vh; /* Ocupa toda la altura de la ventana */ 
+	background-image: url('img/bg-hero-home.jpg');
+	background-size: cover; /* Hace que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    display: flex; /* Flexbox para centrar el texto */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    color: white; /* Texto en blanco para que destaque sobre el fondo */
+    font-size: 3.5rem; /* Ajusta el tamaño del texto */
+    text-align: center; /* Centra el texto si es más de una línea */
+    margin: 0; /* Elimina márgenes del contenedor */
+	margin-bottom: 0.5rem;
+}
+
+.hero p {
+    padding: 0 350px;
+}
+
+.acerca {
+    padding: 0 400px;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 500px;
+	margin-bottom: 0.5rem;
+}
+
+.acerca h2 {
+    margin-bottom: 0.5rem;
+    text-align: center;	
+}
+
+.noticias {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.noticias h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.noticias-item {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    overflow: hidden;
+	margin-bottom: 0.5rem;
+}
+
+.noticias-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.noticias-item div {
+    padding: 1rem;
+}
+
+.noticias-item h3 {
+    color: #DE2333;
+    margin: 0.5rem 0;
+}
+
+.noticias-item time {
+    font-size: 0.9rem;
+	margin-bottom: 0.5rem;
+}
+
+.noticias-item p {
+    margin: 0.5rem 0 1rem;
+}
+
+.noticias-item a {
+    color: #DE2333;
+    text-decoration: none;
+}
+
+footer {
+    text-align: left;
+	text-decoration: none;
+}
+    
+.pie-pagina {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem 0;
+    border-top: 1px solid #ddd;    
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    margin-left: 300px; /* Margen a la izquierda */
+}
+
+footer a {
+    color: #ffffff; /* Color blanco para los enlaces */
+    text-decoration: none; /* Sin subrayado */
+        
+}
+
+.footer-top {
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px; /* Espaciado entre los enlaces */
+}
+
+.social-iconos {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1rem;
+    margin-left: 300px; /* Margen a la izquierda */
+}
