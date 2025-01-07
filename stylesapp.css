@@ -1,0 +1,164 @@
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    max-height: 50%;
+    height: auto;
+    display: block;
+}
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    text-align: left;
+    padding: 1rem 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header h1{
+    letter-spacing: -3px;
+    font-size: 3.5rem;
+    
+}
+
+.delgado {
+    font-weight: normal;
+}
+
+nav {
+    margin-top: 10px; 
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.nav-list {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    gap: 20px; 
+    justify-content: left; 
+}
+
+.nav-list a {
+    text-decoration: none; 
+    color: inherit; 
+    font-weight: bold; 
+    padding: 5px 10px; 
+}
+.logo {
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.menu ul li {
+    display: inline;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.menu ul li a.active,
+.menu ul li a:hover {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+}
+
+main {
+    padding: 1em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; 
+    background-color: #f5f5f5;
+    padding: 10px; 
+    border-radius: 8px; 
+  }
+  
+  .app-grid article {
+    background-color: #ffffff; 
+    border: 1px solid #ddd; 
+    border-radius: 6px; 
+    padding: 15px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .app-grid article h2 {
+    margin-top: 0;
+  }
+  
+  .app-grid article a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #DE2333; 
+    text-decoration: none;
+  }
+  
+  .app-grid article a:hover {
+    text-decoration: underline;
+  }
+
+footer {
+    text-align: left;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    text-decoration: none;
+    
+}
+
+.pie-pagina {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;     
+}
+
+footer p {
+    margin: 0;
+    margin-left: 18%;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: left;
+}
+
+.social-iconos {
+    display: flex;
+    justify-content: left;
+    margin-left: 18%;
+}
+
+.copy{
+    font-size: 0.7rem;
+}
+
+
