@@ -1,0 +1,234 @@
+main {
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.despacho {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+}
+
+.despacho ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.despacho ul li {
+    display: inline;
+    margin-right: 5px;
+    color: #DE2333;
+    text-decoration: none;
+}
+
+.despacho ul li a {
+    color: black; /* Cambia el color del texto a negro */
+    text-decoration: none; /* Opcional: elimina el subrayado del enlace */
+    
+}
+
+.noticia {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.noticia h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.noticia  p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.noticia-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.contenido {
+    margin-top: 30px;
+}
+
+.contenido h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contenido a {
+    color: #DE2333; /* Establezco el color del texto */
+    text-decoration: none;   /* Elimino el subrayado del texto */
+    font-style: italic;
+
+}
+.recuadro-gris {
+    background-color: #f0f0f0; /* Fondo gris */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto; /* Centrado horizontal */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.recuadro-gris .resto-contenido {
+    flex: 1; /* Permite que el contenido ocupe el espacio restante */
+}
+
+.recuadro-gris img {
+    max-width: 60px; /* Tamaño máximo de la imagen */
+    height: auto;
+    border-radius: 20%;
+}
+
+.recuadro-gris h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.resto-contenido {
+    margin-left: 110px; /* Deja espacio equivalente al ancho de la imagen + el gap */
+}
+
+.resto-contenido p {
+    margin: 10px 0; /* Espaciado entre párrafos */
+}
+
+.resto-contenido h3 {
+    margin-top: 20px; /* Espacio superior adicional para separarlo del párrafo */
+}
+
+.resto-contenido ul {
+    list-style: none; /* Sin puntos de lista */
+    padding: 0;
+}
+
+.resto-contenido li::before {
+    content: "> "; /* Añade el símbolo mayor que */
+    color: #DE2333;
+}
+
+.resto-contenido a {
+    color: #DE2333;
+    text-decoration: none; /* Sin subrayado */
+    font-size: 0.75rem;
+}
+
+.resto-contenido a:hover {
+    text-decoration: underline;
+}
+
+.enlace{
+    color: #DE2333; /* Establezco el color del texto */
+    text-decoration: none;   /* Elimino el subrayado del texto */
+    font-style: italic;
+    font-size: 0.8rem; 
+}
+
+.formulario-comentarios {
+    margin: 0 auto;
+}
+
+.formulario-comentarios h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.formulario-comentarios p {
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+}
+
+.campo-formulario {
+    margin-bottom: 15px;
+}
+
+.campo-formulario label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.campo-formulario input,
+.campo-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.campo-formulario input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.btn-enviar {
+    background-color: #DE2333;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    width: auto;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.btn-enviar:hover {
+    background-color: #DE2333;
+}
+
+.contenedor {
+    display: flex;
+    gap: 20px; /* Espacio entre columnas */
+    margin: 0 auto;
+    max-width: 1000px; /* Ancho máximo del contenedor */
+}
+
+.columna-izquierda {
+    flex: 3; /* La columna izquierda ocupa más espacio */
+}
+
+.columna-derecha {
+    flex: 1; /* La columna derecha ocupa menos espacio */
+    padding: 20px;    
+}
+
+.articulo-reciente {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd; /* Línea divisoria */
+    text-transform: uppercase;
+}
+
+.img-redonda {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.info-articulo h3 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.info-articulo p {
+    font-size: 12px;
+    color: #666;
+    margin: 0;
+}
+
+
+
