@@ -1,0 +1,46 @@
+/* Estilo para el contenido principal */
+main {
+    padding: 1em; /* Agrego un padding de 1em en el contenido principal */
+    max-width: 1000px; /* Limito el ancho máximo del contenido a 1000px */
+    margin: 0 auto; /* Centrado automático del contenido */
+}
+
+/* Estilo para el título principal en el contenido */
+main h1{
+    text-align: center; /* Centrado del título principal */
+}
+
+/* Estilo para el contenedor de los videos */
+.videos {
+    display: grid; /* Establezco que el contenedor utilice un diseño de cuadrícula */
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Defino las columnas de la cuadrícula para que se ajusten automáticamente */
+    gap: 20px; /* Establezco un espacio de 20px entre los elementos */
+    padding: 10px; /* Agrego un padding de 10px alrededor de la cuadrícula */
+}
+
+/* Estilo para cada artículo dentro del contenedor de videos */
+.videos article {
+    background: #f2f2f2; /* Establezco un fondo gris claro para cada artículo */
+    font-style: italic; /* Aplico estilo en cursiva al texto dentro de cada artículo */
+}
+
+/* Estilo para el título dentro de cada artículo de video */
+.videos article h2 {
+    font-size: 1.2em; /* Establezco el tamaño de la fuente del título a 1.2 veces el tamaño base */
+    margin: 5px 0; /* Agrego un margen de 5px arriba y abajo del título */
+}
+
+/* Estilo para el párrafo dentro de cada artículo de video */
+.videos article p {
+    font-size: 0.7rem; /* Establezco el tamaño de la fuente a 0.7rem */
+    color: #555; /* Establezco el color del texto a gris oscuro */
+    margin: 10px; /* Agrego un margen de 10px alrededor del párrafo */
+    padding: 1px 20px; /* Agrego un padding de 1px arriba y abajo, y 20px a los lados */
+}
+
+/* Estilo para el iframe dentro de cada artículo de video */
+.videos article iframe {
+    width: 100%; /* Establezco que el iframe ocupe todo el ancho disponible */
+    height: 275px; /* Establezco una altura fija de 275px para el iframe */
+    border: none; /* Elimino el borde por defecto del iframe */
+}

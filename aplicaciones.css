@@ -1,0 +1,76 @@
+/* Estilo para el logotipo */
+.logo {
+  text-decoration: none; /* Elimino el subrayado del logo */
+  font-size: 1.5em; /* Establezco el tamaño de la fuente a 1.5 veces el tamaño base */
+  font-weight: bold; /* Hago que el texto del logo sea en negrita */
+}
+
+/* Estilo del menú */
+.menu ul {
+  list-style: none; /* Elimino los puntos de la lista */
+  padding: 0; /* Quito el padding por defecto */
+  margin: 0; /* Quito el margen por defecto */
+  display: flex; /* Establezco que los elementos se alineen en fila */
+  justify-content: center; /* Centrado de los elementos en el eje horizontal */
+  gap: 1em; /* Añadimos un espacio de 1em entre cada enlace */
+}
+
+.menu ul li {
+  display: inline; /* Aseguro que los elementos de lista se alineen horizontalmente */
+}
+
+.menu ul li a {
+  text-decoration: none; /* Elimino el subrayado de los enlaces */
+  color: #333; /* Establezco el color de los enlaces como gris oscuro */
+}
+
+/* Estilo para los enlaces activos y los que están en hover */
+.menu ul li a.active,
+.menu ul li a:hover {
+  color: #007BFF; /* Establezco el color del enlace a azul cuando está activo o en hover */
+  border-bottom: 2px solid #007BFF; /* Añadimos una línea debajo del enlace cuando está activo o en hover */
+}
+
+/* Estilo para el contenido principal */
+main {
+  padding: 1em; /* Agrego un padding de 1em en el contenido principal */
+  max-width: 1000px; /* Limito el ancho máximo del contenido a 1000px */
+  margin: 0 auto; /* Centrado automático del contenido */
+}
+
+main h1 {
+  text-align: center; /* Centrado del título principal */
+}
+
+/* Estilo para la cuadrícula de aplicaciones */
+.app-grid {
+  display: grid; /* Establezco que el contenedor utilice un diseño de cuadrícula */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Defino las columnas de la cuadrícula para que se ajusten automáticamente */
+  gap: 20px; /* Establezco un espacio de 20px entre los elementos */
+  padding: 10px; /* Agrego un padding de 10px alrededor de la cuadrícula */
+}
+
+/* Estilo para cada artículo dentro de la cuadrícula */
+.app-grid article {
+  background-color: #F4F6F7; /* Establezco un fondo gris claro para cada artículo */
+  padding: 15px; /* Agrego un padding de 15px dentro de cada artículo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Aplico una sombra ligera a cada artículo */
+}
+
+/* Estilo para el título dentro de cada artículo */
+.app-grid article h2 {
+  margin-top: 0; /* Elimino el margen superior en el título */
+}
+
+/* Estilo para los enlaces dentro de los artículos */
+.app-grid article a {
+  display: inline-block; /* Aseguro que los enlaces se comporten como bloques en línea */
+  margin-top: 10px; /* Agrego un margen superior de 10px a los enlaces */
+  color: #DE2333; /* Establezco el color del enlace a rojo */
+  text-decoration: none; /* Elimino el subrayado del enlace */
+}
+
+/* Estilo para los enlaces en estado hover dentro de los artículos */
+.app-grid article a:hover {
+  text-decoration: underline; /* Bajo el subrayado cuando el enlace está en hover */
+}

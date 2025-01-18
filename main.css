@@ -1,0 +1,162 @@
+/* Estilo general del cuerpo de la página */
+body {
+    /* Establezco la fuente principal y una alternativa */
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    /* Configuro la altura de línea para una lectura cómoda */
+    line-height: 1.6;
+    /* Quito los márgenes y el relleno por defecto */
+    margin: 0;
+    padding: 0;
+    /* Hago que el modelo de caja incluya bordes y padding dentro del tamaño total */
+    box-sizing: border-box;
+}
+
+/* Estilo para las imágenes */
+img {
+    /* Restrinjo el ancho máximo para que no sobrepase su contenedor */
+    max-width: 100%;
+    /* Limito la altura máxima */
+    max-height: 50%;
+    /* Ajusto automáticamente la altura para mantener la proporción */
+    height: auto;
+    /* Aseguro que las imágenes se comporten como elementos en bloque */
+    display: block;
+}
+
+/* Estilo para la cabecera */
+header {
+    /* Fondo blanco para contraste */
+    background-color: #ffffff;
+    /* Color negro para el texto */
+    color: #000000;
+    /* Alineo el texto a la izquierda */
+    text-align: left;
+    /* Agrego relleno interno */
+    padding: 1rem 2rem;
+    /* Limito el ancho máximo */
+    max-width: 1000px;
+    /* Centro horizontalmente */
+    margin: 0 auto;
+    /* Línea divisoria en la parte inferior */
+    border-bottom: 1px solid #F4F6F7;
+}
+
+/* Estilo para el título dentro de la cabecera */
+header h1 {
+    /* Ajusto el espacio entre letras */
+    letter-spacing: -3px;
+    /* Incremento el tamaño de la fuente */
+    font-size: 3.5rem;
+}
+
+/* Clase para texto con peso de fuente normal */
+.delgado {
+    font-weight: normal;
+}
+
+/* Estilo para la navegación */
+nav {
+    /* Margen superior para separación */
+    margin-top: 10px;
+    /* Transformo el texto a mayúsculas */
+    text-transform: uppercase;
+}
+
+/* Estilo para la lista de navegación */
+.nav-list {
+    /* Quito los puntos de lista */
+    list-style: none;
+    /* Elimino el margen y el relleno */
+    padding: 0;
+    margin: 0;
+    /* Uso flexbox para organizar los enlaces */
+    display: flex;
+    /* Espacio entre los elementos */
+    gap: 20px;
+    /* Alineo los elementos a la izquierda */
+    justify-content: left;
+}
+
+/* Estilo para los enlaces de la navegación */
+.nav-list a {
+    /* Quito el subrayado */
+    text-decoration: none;
+    /* Mantengo el color del texto original */
+    color: inherit;
+    /* Resalto el texto con negrita */
+    font-weight: bold;
+    /* Relleno interno para aumentar la zona clicable */
+    padding: 5px 10px;
+}
+
+/* Estilo general para el pie de página */
+footer {
+    /* Alineo el texto a la izquierda */
+    text-align: left;
+    /* Agrego relleno superior e inferior */
+    padding: 1rem 0;
+    /* Ajusto el tamaño de la fuente */
+    font-size: 0.9rem;
+    /* Quito el subrayado por defecto de los enlaces */
+    text-decoration: none;
+}
+
+/* Clase específica para la sección del pie de página */
+.pie-pagina {
+    /* Fondo negro */
+    background-color: #000000;
+    /* Texto blanco */
+    color: #ffffff;
+}
+
+/* Estilo para los enlaces en el pie de página */
+footer a {
+    /* Uso color blanco para los enlaces */
+    color: #ffffff;
+    /* Quito el subrayado */
+    text-decoration: none;
+}
+
+/* Estilo para los párrafos en el pie de página */
+footer p {
+    /* Quito el margen por defecto */
+    margin: 0;
+    /* Desplazo el texto hacia la derecha */
+    margin-left: 18%;
+}
+
+/* Contenedor superior del pie de página */
+.footer-top {
+    /* Uso flexbox para organizar los elementos */
+    display: flex;
+    /* Permito que los elementos se ajusten en varias filas */
+    flex-wrap: wrap;
+    /* Espacio entre los elementos */
+    gap: 1rem;
+    /* Alineo los elementos a la izquierda */
+    justify-content: left;
+}
+
+/* Estilo para los íconos sociales */
+.social-iconos {
+    /* Uso flexbox para alinear los íconos */
+    display: flex;
+    /* Alineo los íconos a la izquierda */
+    justify-content: left;
+    /* Margen izquierdo para separación */
+    margin-left: 18%;
+}
+
+/* Estilo para el texto de copyright */
+.copy {
+    /* Ajusto el tamaño de la fuente */
+    font-size: 0.7rem;
+}
+
+/* Estilo para los índices */
+.indice {
+    /* Mantengo el color del texto original */
+    color: inherit;
+    /* Quito el subrayado */
+    text-decoration: none;
+}

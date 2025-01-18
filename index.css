@@ -1,0 +1,125 @@
+/* Establezco una altura del 50% de la ventana para la sección principal de hero */
+.hero {
+    height: 50vh;
+    /* Aplico una imagen de fondo */
+    background-image: url('img/bg-hero-home.jpg');
+    /* Ajusto el tamaño de la imagen para cubrir toda la sección */
+    background-size: cover;
+    /* Centro la posición de la imagen dentro de la sección */
+    background-position: center;
+    /* Uso flexbox para centrar el contenido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Doy color blanco al texto */
+    color: white;
+    /* Ajusto el tamaño del texto de forma responsiva */
+    font-size: clamp(1.8rem, 5vw, 4.5rem);
+    /* Centra el texto */
+    text-align: center;
+    /* Establezco un padding horizontal para los márgenes laterales del texto */
+    padding: 0 25%;
+}
+
+/* Defino el estilo general para la sección acerca */
+.acerca {
+    /* Alineo el texto a la izquierda */
+    text-align: left;
+    /* Centro horizontalmente el contenido de la sección */
+    margin: 0 auto;
+    /* Limito el ancho máximo de la sección */
+    max-width: 800px;
+    /* Ajusto el tamaño de la fuente */
+    font-size: 1.5rem;
+}
+
+/* Estilo para el encabezado dentro de la sección acerca */
+.acerca h2 {
+    /* Agrego un margen inferior para separar el encabezado del contenido */
+    margin-bottom: 1rem;
+    /* Centro el texto del encabezado */
+    text-align: center;
+}
+
+/* Defino el contenedor para la sección noticias */
+.noticias {
+    /* Agrego un relleno para separar del resto del contenido */
+    padding: 2rem;
+    /* Uso flexbox para distribuir los elementos */
+    display: flex;
+    /* Permito que los elementos se ajusten en varias filas */
+    flex-wrap: wrap;
+    /* Defino el espacio entre los elementos */
+    gap: 1rem;
+    /* Centro los elementos dentro del contenedor */
+    justify-content: center;
+}
+
+/* Estilo para el encabezado dentro de la sección noticias */
+.noticias h2 {
+    /* Centro el texto */
+    text-align: center;
+    /* Ocupo todo el ancho del contenedor */
+    width: 100%;
+    /* Agrego un margen inferior para separar el encabezado del contenido */
+    margin-bottom: 2rem;
+    /* Ajusto el tamaño de la fuente */
+    font-size: 2rem;
+}
+
+/* Defino el diseño de cada elemento de noticias */
+.noticias-item {
+    /* Organizo los elementos en columna */
+    display: flex;
+    flex-direction: column;
+    /* Establezco un ancho fijo para cada tarjeta */
+    width: 300px;
+    /* Oculto el contenido que se desborde */
+    overflow: hidden;
+}
+
+/* Estilo para los títulos de las noticias */
+.noticias-item h3 {
+    /* Uso un color rojo específico para los títulos */
+    color: #DE2333;
+    /* Agrego un margen alrededor del título */
+    margin: 0.5rem 0;
+    /* Ajusto el tamaño de la fuente */
+    font-size: 1.3rem;
+}
+
+/* Estilo para la fecha de publicación de las noticias */
+.noticias-item time {
+    /* Ajusto el tamaño de la fuente */
+    font-size: 0.9rem;
+}
+
+/* Estilo para los párrafos dentro de las noticias */
+.noticias-item p {
+    /* Defino un margen para separar el contenido */
+    margin: 0.5rem 0 1rem;
+}
+
+/* Estilo para los enlaces dentro de las noticias */
+.noticias-item a {
+    /* Uso el mismo color rojo que los títulos */
+    color: #DE2333;
+    /* Quito el subrayado de los enlaces */
+    text-decoration: none;
+    /* Ajusto el tamaño de la fuente */
+    font-size: 0.6rem;
+    /* Resalto el texto con negrita */
+    font-weight: bold;
+    /* Transformo el texto a mayúsculas */
+    text-transform: uppercase;
+}
+
+/* Estilo para las imágenes dentro de las noticias */
+.noticias-item img {
+    /* Ajusto el ancho para que ocupe todo el contenedor */
+    width: 100%;
+    /* Defino una altura específica para mantener el diseño */
+    height: 90%;
+    /* Ajusto la imagen para que siempre se muestre completamente */
+    object-fit: cover;
+}

@@ -1,0 +1,233 @@
+/* Estilos principales del contenedor principal de la página */
+main {
+    padding: 20px; /* Establezco un espaciado interno para separar el contenido del borde */
+    background-color: #fff; /* Fondo blanco para mayor contraste y legibilidad */
+    margin-top: 20px; /* Creo separación superior para evitar que el contenido esté pegado al borde */
+}
+
+/* Configuración para las secciones relacionadas con "despachos" */
+.despacho {
+    font-size: 14px; /* Ajusto el tamaño del texto para mejorar la legibilidad */
+    margin-bottom: 20px; /* Espacio inferior para separar visualmente los bloques */
+    text-transform: lowercase; /* Transformo el texto a minúsculas para uniformidad */
+}
+
+.despacho ul {
+    list-style-type: none; /* Quito los puntos de lista por motivos estéticos */
+    padding: 0; /* Elimino el relleno predeterminado del navegador */
+    margin: 0; /* Elimino márgenes adicionales para un diseño limpio */
+}
+
+.despacho ul li {
+    display: inline; /* Hago que los elementos de la lista aparezcan en línea */
+    margin-right: 5px; /* Añado espacio entre los elementos para evitar que se amontonen */
+    color: #DE2333; /* Aplico un color rojo característico */
+}
+
+.despacho ul li a {
+    color: black; /* Defino el color negro para los enlaces en este contexto */
+    text-decoration: none; /* Quito el subrayado predeterminado de los enlaces */
+}
+
+/* Configuración para las noticias */
+.noticia {
+    max-width: 800px; /* Limito el ancho máximo para facilitar la lectura */
+    margin: 0 auto; /* Centro el contenido horizontalmente */
+    line-height: 1.6; /* Aumento el espacio entre líneas para una mejor legibilidad */
+}
+
+.noticia h1 {
+    font-size: 2em; /* Aumento el tamaño del título para destacarlo */
+    margin-bottom: 10px; /* Dejo espacio inferior para separar del contenido siguiente */
+}
+
+.noticia p {
+    font-size: 1em; /* Configuro un tamaño estándar para el cuerpo del texto */
+    margin-bottom: 20px; /* Dejo espacio inferior entre párrafos */
+}
+
+.noticia-img {
+    width: 100%; /* Ajusto la imagen al ancho completo del contenedor */
+    height: auto; /* Mantengo la proporción de la imagen */
+    margin-top: 20px; /* Dejo un espacio superior para separarla del texto anterior */
+}
+
+/* Estilos para contenido adicional */
+.contenido {
+    margin-top: 30px; /* Separo la sección superior del contenido adicional */
+}
+
+.contenido h2 {
+    margin: 20px 0 10px; /* Aplico un espaciado superior e inferior adecuado */
+}
+
+.contenido a {
+    color: #DE2333; /* Utilizo un color rojo para los enlaces */
+    text-decoration: none; /* Elimino el subrayado por defecto */
+    font-style: italic; /* Aplico un estilo de cursiva para resaltar los enlaces */
+}
+
+/* Diseño de recuadros con fondo gris */
+.recuadro-gris {
+    background-color: #f0f0f0; /* Establezco un fondo gris claro para distinguir el contenido */
+    padding: 20px; /* Añado un relleno interno para comodidad visual */
+    border-radius: 8px; /* Redondeo los bordes para un diseño más amigable */
+    max-width: 800px; /* Limito el ancho máximo del recuadro */
+    margin: 0 auto; /* Centro el recuadro horizontalmente */
+    display: flex; /* Aplico flexbox para organizar el contenido */
+    flex-direction: column; /* Organizo los elementos en una columna */
+    gap: 10px; /* Dejo espacio entre los elementos internos */
+    align-items: flex-start; /* Alineo los elementos al inicio del eje principal */
+}
+
+.recuadro-gris img {
+    max-width: 60px; /* Limito el ancho máximo de las imágenes */
+    height: auto; /* Mantengo la proporción de las imágenes */
+    border-radius: 20%; /* Aplico un borde redondeado para suavizar las imágenes */
+}
+
+.resto-contenido {
+    margin-left: 0; /* Ajusto márgenes para alineación */
+}
+
+.resto-contenido p,
+.resto-contenido h3 {
+    margin: 10px 0; /* Aplico un espaciado uniforme entre elementos de texto */
+}
+
+.resto-contenido ul {
+    list-style: none; /* Quito los puntos de lista para personalización */
+    padding: 0; /* Elimino relleno predeterminado */
+}
+
+.resto-contenido li::before {
+    content: "> "; /* Añado un indicador personalizado antes de cada elemento */
+    color: #DE2333; /* Color rojo para el indicador */
+}
+
+/* Estilo para enlaces adicionales */
+.resto-contenido a,
+.enlace {
+    color: #DE2333; /* Uso un rojo característico para los enlaces */
+    text-decoration: none; /* Elimino el subrayado por defecto */
+    font-size: 0.8rem; /* Ajusto el tamaño del texto para los enlaces */
+}
+
+.resto-contenido a:hover {
+    text-decoration: underline; /* Subrayo los enlaces al pasar el ratón */
+}
+
+/* Configuración del formulario de comentarios */
+.formulario-comentarios {
+    margin: 0 auto; /* Centro el formulario en la página */
+}
+
+.formulario-comentarios h3 {
+    font-size: 1.8rem; /* Destaco el título del formulario */
+    margin-bottom: 10px; /* Dejo espacio inferior para separación */
+}
+
+.formulario-comentarios p {
+    font-size: 0.75rem; /* Ajusto el tamaño del texto descriptivo */
+    margin-bottom: 20px; /* Añado espacio inferior entre elementos */
+}
+
+.campo-formulario {
+    margin-bottom: 15px; /* Dejo un espacio entre los campos del formulario */
+}
+
+.campo-formulario label {
+    display: block; /* Organizo las etiquetas como bloques separados */
+    margin-bottom: 5px; /* Espaciado inferior para claridad */
+}
+
+.campo-formulario input,
+.campo-formulario textarea {
+    width: 100%; /* Ajusto el ancho de los campos al contenedor */
+    padding: 10px; /* Añado un relleno interno para comodidad de escritura */
+    background-color: #f0f0f0; /* Fondo gris claro para los campos */
+    border: none; /* Elimino bordes predeterminados */
+    border-radius: 5px; /* Aplico bordes redondeados para diseño más suave */
+}
+
+/* Configuración para botones */
+.btn-enviar {
+    background-color: #DE2333; /* Aplico un fondo rojo destacado para el botón */
+    color: white; /* Texto en blanco para contraste */
+    padding: 10px 15px; /* Ajusto el relleno interno */
+    border: none; /* Elimino bordes por defecto */
+    font-size: 1rem; /* Ajusto el tamaño del texto del botón */
+    cursor: pointer; /* Cambio el cursor al pasar sobre el botón */
+    text-transform: uppercase; /* Muestro el texto en mayúsculas */
+}
+
+.btn-enviar:hover {
+    background-color: #c0202c; /* Cambio el color del fondo al pasar el ratón */
+}
+
+/* Configuración del contenedor general */
+.contenedor {
+    display: flex; /* Organizo los elementos con flexbox */
+    gap: 20px; /* Dejo un espacio entre las columnas */
+    margin: 0 auto; /* Centro el contenedor */
+    max-width: 1000px; /* Limito el ancho máximo del contenedor */
+    flex-wrap: wrap; /* Permito que las columnas se ajusten en dispositivos pequeños */
+}
+
+.columna-izquierda {
+    flex: 3; /* Hago que esta columna ocupe más espacio */
+}
+
+.columna-derecha {
+    flex: 1; /* La columna derecha ocupa menos espacio */
+    padding: 20px; /* Aplico un relleno interno */
+}
+
+/* Estilos para artículos recientes */
+.articulo-reciente {
+    display: flex; /* Flexbox para organizar contenido */
+    align-items: center; /* Alineo los elementos al centro vertical */
+    margin-bottom: 20px; /* Espaciado inferior para separar artículos */
+    border-bottom: 1px solid #ddd; /* Añade una línea divisoria entre artículos */
+    text-transform: uppercase; /* Aplico mayúsculas para destacar */
+}
+
+.img-redonda {
+    width: 50px; /* Ajusto el ancho de las imágenes */
+    height: 50px; /* Ajusto la altura de las imágenes */
+    border-radius: 50%; /* Hago las imágenes completamente redondas */
+    object-fit: cover; /* Ajusto el contenido dentro del marco */
+    margin-right: 10px; /* Dejo espacio entre la imagen y el texto */
+}
+
+.info-articulo h3,
+.info-articulo p {
+    font-size: 12px; /* Tamaño del texto para subtítulos y descripciones */
+    margin: 0; /* Elimino márgenes adicionales */
+    color: #666; /* Aplico un color gris suave */
+}
+
+/* Estilos para adaptabilidad en dispositivos pequeños */
+@media (max-width: 768px) {
+    .contenedor {
+        flex-direction: column; /* Reorganizo en una columna vertical */
+    }
+
+    .columna-izquierda,
+    .columna-derecha {
+        flex: 1; /* Las columnas ocupan el mismo tamaño */
+        margin-bottom: 20px; /* Espaciado inferior entre columnas */
+    }
+
+    .recuadro-gris {
+        max-width: 100%; /* Hago que los recuadros ocupen todo el ancho */
+    }
+
+    .noticia {
+        padding: 10px; /* Reduzco el espaciado interno para pantallas pequeñas */
+    }
+
+    .btn-enviar {
+        width: 100%; /* Los botones ocupan todo el ancho disponible */
+    }
+}
